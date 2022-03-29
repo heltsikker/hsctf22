@@ -1,0 +1,13 @@
+Kategori: Misc
+
+Tittel: Greatest Shell
+
+Forfatter: Kristoffer Solli @ Netsecurity AS
+
+Beskrivelse: Help! My home computer running Wordpress has been compromised. I luckly have a full network capture of the events that took place. Help me find where the attacker uploaded their malicious code to my server, it is important! 
+
+Flagg: HSCTF{this_is_not_common_______right}
+
+Vanskelighetsgrad: easy
+
+Nedlastninger: help.pcapng

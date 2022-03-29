@@ -1,0 +1,1 @@
+HSCTF{controlled_memory_corruption?_nice!}

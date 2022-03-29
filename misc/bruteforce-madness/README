@@ -1,0 +1,13 @@
+Kategori: Misc
+
+Tittel: Bruteforce Madness
+
+Forfatter: Kristoffer Solli @ Netsecurity AS
+
+Beskrivelse: I can tell that the attacker has used rockyou.txt to bruteforce the password of the admin account... However there is something strange here.. In my rockyou file the correct password is at line 1337, but they tried 1368 passwords.
+
+Flagg: HSCTF{bruteforce_always_works}
+
+Vanskelighetsgrad: medium
+
+Nedlastninger: help.pcapng

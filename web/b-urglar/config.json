@@ -1,0 +1,389 @@
+{
+  "jwtKey": "dette er en relativt lang setning som gjerne kan brukes til signering av jwter uten store problemer",
+  "loginUser": {
+    "username": "greenemerald",
+    "password": "farmer3"
+  },
+  "flag": "HSCTF{Brad1337IsTooCoolForSchool}",
+  "secretApiKey": "c3VwZXJzZWNyZXRhcGlrZXl0aGF0eW91d2lsbG5ldmVyZ3Vlc3MK",
+  "cookieName": "authToken",
+  "users": [
+    {
+      "id": 1,
+      "name": "Cheryl Garrod"
+    },
+    {
+      "id": 2,
+      "name": "Sigfrid Ottosen"
+    },
+    {
+      "id": 3,
+      "name": "Georg Lie"
+    },
+    {
+      "id": 4,
+      "name": "Arnt Albertsen"
+    },
+    {
+      "id": 5,
+      "name": "Signy Odding"
+    },
+    {
+      "id": 6,
+      "name": "Berny Blackbourne"
+    },
+    {
+      "id": 7,
+      "name": "Chuckie Davies"
+    },
+    {
+      "id": 8,
+      "name": "Oz William"
+    },
+    {
+      "id": 9,
+      "name": "Ansel Arkwright"
+    },
+    {
+      "id": 10,
+      "name": "Tallak Petersen"
+    },
+    {
+      "id": 11,
+      "name": "Makenna Thwaite"
+    },
+    {
+      "id": 12,
+      "name": "Minnie William"
+    },
+    {
+      "id": 13,
+      "name": "Irving Tirrell"
+    },
+    {
+      "id": 14,
+      "name": "Tabatha Gibbs"
+    },
+    {
+      "id": 15,
+      "name": "Gabriel Tveit"
+    },
+    {
+      "id": 16,
+      "name": "Ingebjørg Bakke"
+    },
+    {
+      "id": 17,
+      "name": "Georgina Davis"
+    },
+    {
+      "id": 18,
+      "name": "Mona Thorne"
+    },
+    {
+      "id": 19,
+      "name": "Korrine Robson"
+    },
+    {
+      "id": 20,
+      "name": "Bryn Tod"
+    },
+    {
+      "id": 21,
+      "name": "Sindre Berge"
+    },
+    {
+      "id": 22,
+      "name": "Lacy Appleton"
+    },
+    {
+      "id": 23,
+      "name": "Carmella Causey"
+    },
+    {
+      "id": 24,
+      "name": "Annis Baxter"
+    },
+    {
+      "id": 25,
+      "name": "Monique Lucas"
+    },
+    {
+      "id": 26,
+      "name": "Walton Towner"
+    },
+    {
+      "id": 27,
+      "name": "Borghild Jakobsen"
+    },
+    {
+      "id": 28,
+      "name": "Primrose Paget"
+    },
+    {
+      "id": 29,
+      "name": "Tine Lie"
+    },
+    {
+      "id": 30,
+      "name": "Hall Yap"
+    },
+    {
+      "id": 31,
+      "name": "Curran Kynaston"
+    },
+    {
+      "id": 32,
+      "name": "Josepha Hadaway"
+    },
+    {
+      "id": 33,
+      "name": "Knut Adamsen"
+    },
+    {
+      "id": 34,
+      "name": "Bernadette Fisher"
+    },
+    {
+      "id": 35,
+      "name": "Arin Geary"
+    },
+    {
+      "id": 36,
+      "name": "Wendi Vincent"
+    },
+    {
+      "id": 37,
+      "name": "Kennith Brand"
+    },
+    {
+      "id": 38,
+      "name": "Olav Tveit"
+    },
+    {
+      "id": 39,
+      "name": "Merletta Trueman"
+    },
+    {
+      "id": 40,
+      "name": "Sondre Vang"
+    },
+    {
+      "id": 41,
+      "name": "Eva Haugen"
+    },
+    {
+      "id": 42,
+      "name": "Janne Bakken"
+    },
+    {
+      "id": 43,
+      "name": "Debi Lynn"
+    },
+    {
+      "id": 44,
+      "name": "Stanley Jones"
+    },
+    {
+      "id": 45,
+      "name": "Randi Colton"
+    },
+    {
+      "id": 46,
+      "name": "Torbjørn Karstensen"
+    },
+    {
+      "id": 47,
+      "name": "Devereux Collins"
+    },
+    {
+      "id": 48,
+      "name": "Crispian Hext"
+    },
+    {
+      "id": 49,
+      "name": "Kegan Reeves"
+    },
+    {
+      "id": 50,
+      "name": "Janene Arterberry"
+    },
+    {
+      "id": 51,
+      "name": "Rainbow Atwater"
+    },
+    {
+      "id": 52,
+      "name": "Cornell Earls"
+    },
+    {
+      "id": 53,
+      "name": "Monica Rivers"
+    },
+    {
+      "id": 54,
+      "name": "Opal Paget"
+    },
+    {
+      "id": 55,
+      "name": "Philip Arnesen"
+    },
+    {
+      "id": 56,
+      "name": "Maj Stenberg"
+    },
+    {
+      "id": 57,
+      "name": "Elwin Seward"
+    },
+    {
+      "id": 58,
+      "name": "Gerhard Haugen"
+    },
+    {
+      "id": 59,
+      "name": "Frannie Watkins"
+    },
+    {
+      "id": 60,
+      "name": "Kaiden Marlow"
+    },
+    {
+      "id": 61,
+      "name": "Johanna Årud"
+    },
+    {
+      "id": 62,
+      "name": "Haze Cole"
+    },
+    {
+      "id": 63,
+      "name": "Jimmie Marsden"
+    },
+    {
+      "id": 64,
+      "name": "Primrose Payne"
+    },
+    {
+      "id": 65,
+      "name": "Jostein Haraldsen"
+    },
+    {
+      "id": 66,
+      "name": "Kirsten Anker"
+    },
+    {
+      "id": 67,
+      "name": "Cornell Cookson"
+    },
+    {
+      "id": 68,
+      "name": "Holden Tatum"
+    },
+    {
+      "id": 69,
+      "name": "Halle Holt"
+    },
+    {
+      "id": 70,
+      "name": "Inga Vollan"
+    },
+    {
+      "id": 71,
+      "name": "Hjalmar Vinter"
+    },
+    {
+      "id": 72,
+      "name": "Heather Lovell"
+    },
+    {
+      "id": 73,
+      "name": "Trym Johannessen"
+    },
+    {
+      "id": 74,
+      "name": "Leroi Boyce"
+    },
+    {
+      "id": 75,
+      "name": "Pierce Pierce"
+    },
+    {
+      "id": 76,
+      "name": "Rosamond Cummins"
+    },
+    {
+      "id": 77,
+      "name": "Bertie Royston"
+    },
+    {
+      "id": 78,
+      "name": "Lainey Abbott"
+    },
+    {
+      "id": 79,
+      "name": "brad",
+      "admin": true
+    },
+    {
+      "id": 80,
+      "name": "Ashleigh Daniel"
+    },
+    {
+      "id": 81,
+      "name": "Sissel Moe"
+    },
+    {
+      "id": 82,
+      "name": "Erykah Stacy"
+    },
+    {
+      "id": 83,
+      "name": "Enok Knutsen"
+    },
+    {
+      "id": 84,
+      "name": "Jaxon Pratt"
+    },
+    {
+      "id": 85,
+      "name": "Bart Mynatt"
+    },
+    {
+      "id": 86,
+      "name": "Helena Østberg"
+    },
+    {
+      "id": 87,
+      "name": "Jeri Foster"
+    },
+    {
+      "id": 88,
+      "name": "Trevelyan Hubert"
+    },
+    {
+      "id": 89,
+      "name": "Serina Holme"
+    },
+    {
+      "id": 90,
+      "name": "Hilda Rasmussen"
+    },
+    {
+      "id": 91,
+      "name": "Janele Slade"
+    },
+    {
+      "id": 92,
+      "name": "Nate Croft"
+    },
+    {
+      "id": 93,
+      "name": "Louisa Masterson"
+    },
+    {
+      "id": 94,
+      "name": "Axel Johnson"
+    }
+  ]
+}

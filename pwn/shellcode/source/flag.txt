@@ -1,0 +1,1 @@
+HSCTF{oh_the_wonders_you_can_do_with_shellcode}

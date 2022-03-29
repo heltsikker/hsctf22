@@ -1,0 +1,50 @@
+# Solution: 
+This challenge has multiple steps where the first one is to find the key for XOR encryption before extracting the filesystem.
+
+## Step1 Decryption: 
+It is possible to find the key used for the XOR operation by hexdumping the encrypted file. 
+Since the keylength is so much shorter than the file it self, the key will just repeat at the end when there is no more data to be encrypted. 
+
+Run XXD and you will see the following Byte sequence at the end: 
+8844 a2d1 68b4 5a2d
+
+You can then decrypt with the following python script: 
+
+```
+#!/usr/bin/env python3
+def xor(data, key):
+    l = len(key)
+    outfile_bytes = bytearray((
+        (data[i] ^ key[i % l]) for i in range(0,len(data))
+    ))
+    xor_out = open("decrypted_firmware.bin", "wb")
+    return xor_out.write(outfile_bytes)
+
+data = bytearray(open('IC3116W_encrypted.bin', 'rb').read())
+
+key = bytearray([0x88,0x44,0xa2,0xd1,0x68,0xb4,0x5a,0x2d])
+
+xor(data,key)
+```
+
+
+## Step2 Finding the filesystem: 
+After you have decrypted the firmware, you run the tool binwalk on the newly decrypted file. 
+There you will see that at offset 1245312 there is a squashfs filesystem. 
+
+This is the filesystem for the IP camera and it is what we want to extract. 
+
+## Step3 Extracting the filesystem: 
+Run the command binwalk -e to extract it and binwalk will do all the work. 
+There will be created a new folder where you can go and look at the files. 
+
+## Step 4 finding the Admin hash: 
+
+The admin hash will be located in
+
+/path to extracted_filesystem/squashfs-root/etc/passwd
+
+There it will be one entry admin:$1$yAn92Ld/$u%nHFH9nLds0naDaLuK1d/:0:0:System Administrator,,,:/:/bin/sh
+
+and the flag is HSCTF{$1$yAn92Ld/$u%nHFH9nLds0naDaLuK1d/}
+

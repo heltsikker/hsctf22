@@ -1,0 +1,4 @@
+# Solution: 
+
+Open the IQ file with Universal Radio Hacker, and you'll see three identical messages. 
+The data has autodecoded successfully, however, due to the way the packet is structured the bits are not aligned and you won’t automatically see the ASCII flag. If you copy the binary to CyberChef, for example, and start removing some bits from the beginning of the message, the flag will eventually be decoded once everything comes into alignment.

@@ -1,0 +1,43 @@
+# Solution: 
+This is a hashcracking challenge (easy one).
+
+## Step 1: 
+The first step is to find out what hashtype it is, since we are mentioning domains and windows password hash, this should give you a clue that it is a NTLM hash.
+
+## Step 2: 
+Install hashcat on the host system, or passthrough a GPU to a VM with hashcat installed. 
+It is important that hashcat gets as many resources ase possible to use so it will crack faster. 
+
+## Step 3: 
+Crack it using the following command
+
+hashcat -m 1000 -a3 --increment --increment-min 5 --increment-max 10 3F0B3449E10E81C68088BDCB94BB607D ?a?a?a?a?a?a?a?a?a?a
+
+Syntax breakdown:
+-m 1000
+Tells hashcat this is a NTLM hash
+
+-a 3 
+Method: Bruteforce
+
+--increment
+Try all combinations of a certain length before moving on
+
+--increment-min 5
+Start at 5 characters
+
+--increment-max 10
+Stop at 10 characters
+
+3F0B3449E10E81C68088BDCB94BB607D 
+NTLM hash
+
+?a?a?a?a?a?a?a?a?a?a
+Mask, ?a indicates one character with all combinations, uppercase, lowercase, digits, special characters. 
+Giving ?a?a?a?a?a?a?a?a?a?a as a mask tels Hashcat to try all possible combinations up to 10 character long passwords. (with --increment)
+
+
+## Step 4
+Profit 
+the clear text password is: U&!!Bl
+HSCTF{U&!!Bl}

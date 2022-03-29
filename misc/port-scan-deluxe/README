@@ -1,0 +1,13 @@
+Kategori: Misc
+
+Tittel: Port Scan Deluxe
+
+Forfatter: Kristoffer Solli @ Netsecurity AS
+
+Beskrivelse: Looking even closer at this incident makes things even stranger.. Why does it look like they checked the same port multiple times?
+
+Flagg: HSCTF{dont_mind_me_just_double_checking_some_ports}
+
+Vanskelighetsgrad: medium
+
+Nedlastninger: help.pcapng

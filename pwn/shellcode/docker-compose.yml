@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+    pwn:
+        build: .
+        ports:
+                - '9012:9012'
+        stdin_open: true
+        tty: true
